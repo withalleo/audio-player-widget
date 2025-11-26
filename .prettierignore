@@ -1,0 +1,10 @@
+node_modules
+dist
+patches
+alleo.d.ts
+package-lock.json
+tsconfig.json
+WidgetsBuildAndPublish.yml
+WidgetsBuildAndPublish_CI.yml
+**/public/assets/widgetAssets/
+**/vite.config.ts

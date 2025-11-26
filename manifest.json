@@ -1,0 +1,23 @@
+{
+	"widgetId": "audio-player",
+	"publisherId": "com.withalleo",
+	"name": "Audio Player",
+	"author": "Alleo",
+	"authorUrl": "https://www.withalleo.com/",
+	"description": "A widget service that can play audio files.",
+	"iconUrl": "./assets/icon.png",
+	"version": "<version_extracted_from_package.json>",
+	"service": true,
+	"singleton": false,
+	"thumbnails": ["./assets/preview.mp4"],
+	"entrypoints": [
+		{
+			"range": "^1.0.0",
+			"apiVersion": 1,
+			"entrypoint": "./index.html"
+		}
+	],
+	"config": {
+	},
+	"settingsScopes": []
+}

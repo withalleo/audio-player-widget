@@ -1,0 +1,32 @@
+{
+    "printWidth": 140,
+    "tabWidth": 4,
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "preserve",
+    "trailingComma": "all",
+    "arrowParens": "always",
+    "endOfLine": "crlf",
+    "bracketSameLine": true,
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "useTabs": true,
+                "trailingComma": "none"
+            }
+        },
+        {
+            "files": ".prettierrc",
+            "options": {
+                "parser": "json"
+            }
+        },
+        {
+            "files": "*.md",
+            "options": {
+                "endOfLine": "crlf"
+            }
+        }
+    ]
+}
